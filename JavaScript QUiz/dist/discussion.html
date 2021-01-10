@@ -1,0 +1,49 @@
+<html>
+   <head>
+     <title>DISCUSSION FORM</title>
+	 <link rel="stylesheet" href="discussion.css">
+   </head>
+   <body>
+       <div class="container">
+					<div class="header">
+									DISCUSSION FORM
+					</div>
+					<hr>
+					<div class="bodycontainer">
+								<div class="leftcontainer">
+										<div class="leftcontainer1">
+												<input type="button" value="add new question" id="add"/>
+												<input type="text" placeholder="Search Question" id="search"/>
+										</div>
+										<div id="questionlist">
+										
+										</div>					 
+								</div><hr>
+								<div class="rightcontainer" id="rightcontainer">
+										<div id="rightcontainer1">
+												<h2 class="heading2">WELCOME TO DISCUSSION FORM :</h2>
+												<h3 class="heading3">Add a question</h3>
+												<input type="text" placeholder="Enter your name" class="name" id="name1" required/>
+												<input type="text" placeholder="Enter subject" id="subject" required/><br><br>
+												<textarea placeholder="Enter your question here" id="question"></textarea><br/><br/>
+												<input type="submit" id="submitqus"/>
+										</div>
+										<div id="rightcontainer2">
+												<h2 class="heading2">WELCOME TO DISCUSSION FORM :</h2>
+												<h3 class="heading3">ANSWER THE QUESTION</h3><br/>
+												<label class="heading3">Qus :-</label><label class="heading3" id="questionlabel"></label><br/>
+												<label class="heading3">Subject :-</label><label class="heading3" id="subjectlabel"></label><br/><br/>
+												<input type="text" placeholder="Enter your name" class="name" id="name2"/><br><br/>
+												<textarea placeholder="Enter your answer" id="answer"></textarea><br/><br/>
+												<input type="submit" id="submitans"/> <input type="button" value="Resolve"id="resolve"/><br><br>
+												<h3 class="heading3">Previous Responses :</h3><br/>
+												<div id="previousans"><br/>
+
+												</div> 
+										</div>
+								</div>
+					</div>
+		 </div>
+	 </body>
+	 <script src="discussion.js"></script>
+</html>
